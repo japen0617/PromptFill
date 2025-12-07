@@ -606,12 +606,12 @@ const BankGroup = ({ bankKey, bank, onInsert, onDeleteOption, onAddOption, onDel
 
 const App = () => {
   // Global State with Persistence
-  const [banks, setBanks] = useStickyState(INITIAL_BANKS, "app_banks_v2"); 
-  const [defaults, setDefaults] = useStickyState(INITIAL_DEFAULTS, "app_defaults_v2");
+  const [banks, setBanks] = useStickyState(INITIAL_BANKS, "app_banks_v3"); 
+  const [defaults, setDefaults] = useStickyState(INITIAL_DEFAULTS, "app_defaults_v3");
   const [language, setLanguage] = useStickyState("cn", "app_language_v1"); 
   
-  const [templates, setTemplates] = useStickyState(INITIAL_TEMPLATES, "app_templates_v2");
-  const [activeTemplateId, setActiveTemplateId] = useStickyState("tpl_default", "app_active_template_id_v1");
+  const [templates, setTemplates] = useStickyState(INITIAL_TEMPLATES, "app_templates_v3");
+  const [activeTemplateId, setActiveTemplateId] = useStickyState("tpl_default", "app_active_template_id_v2");
   
   // UI State
   const [bankSidebarWidth, setBankSidebarWidth] = useStickyState(420, "app_bank_sidebar_width_v1"); // Default width increased to 420px for 2-column layout
