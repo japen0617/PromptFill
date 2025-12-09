@@ -3,7 +3,7 @@
 一个专为 AI 绘画（GPT、Nano Banana 等）设计的**结构化提示词生成工具**。通过可视化的"填空"交互方式，帮助用户快速构建、管理和迭代复杂的 Prompt。
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/Version-0.3.0-orange.svg)
+![Version](https://img.shields.io/badge/Version-0.3.1-orange.svg)
 ![React](https://img.shields.io/badge/React-18.x-61DAFB.svg)
 ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg)
@@ -136,6 +136,18 @@
 7.  **本地数据安全**：所有数据（包括上传的图片）都存储在浏览器本地，定期导出备份可以避免数据丢失。
 
 ## 📝 更新日志
+
+### Version 0.3.1 (2025-12-09)
+*   **启动优化**：
+    *   重构 `start.bat`，兼容 PowerShell 和 CMD 环境
+    *   增加自动依赖检查与修复功能，解决缺失 `vite` 等核心依赖的问题
+    *   优化浏览器自动打开逻辑，确保服务启动即自动打开
+*   **工程化改进**：
+    *   `package.json` 新增 `dev:open` 脚本，统一启动行为
+    *   修复 `start.bat` 的中文编码问题
+    *   清理 `node_modules` 的 Git 追踪配置，规范化项目结构
+*   **Bug 修复**：
+    *   解决 `src/data/templates.js` 中的 Git 合并冲突
 
 ### Version 0.3.0 (2025-12-08)
 *   **UI 优化**：
