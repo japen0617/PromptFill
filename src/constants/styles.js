@@ -125,6 +125,7 @@ export const TAG_STYLES = {
   "寵物": "bg-orange-50 text-orange-600 border border-orange-200",
   "遊戲": "bg-violet-50 text-violet-600 border border-violet-200",
   "創意": "bg-fuchsia-50 text-fuchsia-600 border border-fuchsia-200",
+  "社群": "bg-cyan-50 text-cyan-600 border border-cyan-200",
   "default": "bg-gray-50 text-gray-500 border border-gray-200"
 };
 
@@ -139,7 +140,8 @@ export const TAG_LABELS = {
     "卡通": "卡通",
     "寵物": "寵物",
     "遊戲": "遊戲",
-    "創意": "創意"
+    "創意": "創意",
+    "社群": "社群"
   },
   en: {
     "建築": "Architecture",
@@ -151,6 +153,7 @@ export const TAG_LABELS = {
     "卡通": "Cartoon",
     "寵物": "Pets",
     "遊戲": "Gaming",
-    "創意": "Creative"
+    "創意": "Creative",
+    "社群": "Community"
   }
 };
